@@ -1,0 +1,30 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "- [Instrucciones en Español](README_ES.md)\r - [Instructions in English](README_EN.md)",
+  "main": "libraryServer.js",
+  "scripts": {
+    "start": "node libraryServer.js",
+    "dev": "nodemon libraryServer.js",
+    "loadTestData": "node ./seeders/initialData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galfaulara/Library-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  },
+  "homepage": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.1",
+    "pg": "^8.8.0"
+  }
+}
